@@ -1,0 +1,917 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/src/style.css" />
+
+  <!-- SEO Meta Tags -->
+  <title>DeriveStems | Content, Design, Branding. Built for Growth.</title>
+  <meta name="description"
+    content="DeriveStems helps businesses and personal brands grow through content creation, graphic design, video editing, and brand identity. We build content that connects and drives growth." />
+
+  <!-- Premium Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <style>
+    @import url('https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,400&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+  </style>
+</head>
+
+<body>
+
+  <!-- Floating Pill Navigation -->
+  <header class="navbar-wrapper">
+    <!-- Left Logo Stick -->
+    <div class="nav-logo-wrapper">
+      <a href="#hero" class="nav-logo" id="nav-logo">
+        <!-- DeriveStems SVG Symbol (Strictly Brand Color) -->
+        <svg viewBox="0 0 100 100" class="logo-icon" id="logo-icon">
+          <path d="M 50,15 L 50,85" stroke="currentColor" stroke-width="7" stroke-linecap="round" />
+          <path d="M 24,35 L 50,15 L 76,35" stroke="currentColor" stroke-width="7" stroke-linecap="round"
+            stroke-linejoin="round" fill="none" />
+          <path d="M 50,35 L 24,50 L 24,68 L 50,83" stroke="currentColor" stroke-width="7" stroke-linecap="round"
+            stroke-linejoin="round" fill="none" />
+          <path d="M 50,35 L 76,50 L 76,68 L 50,83" stroke="currentColor" stroke-width="7" stroke-linecap="round"
+            stroke-linejoin="round" fill="none" />
+          <path d="M 50,51 L 34,60 L 34,68 L 50,77" stroke="currentColor" stroke-width="7" stroke-linecap="round"
+            stroke-linejoin="round" fill="none" />
+          <path d="M 50,51 L 66,60 L 66,68 L 50,77" stroke="currentColor" stroke-width="7" stroke-linecap="round"
+            stroke-linejoin="round" fill="none" />
+        </svg>
+        <span class="logo-text">DeriveStems</span>
+      </a>
+    </div>
+
+    <!-- Center Floating Pill Menu -->
+    <div class="navbar-menu-wrapper" id="navbar-menu-wrapper">
+      <div class="nav-menu" id="nav-menu">
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#packages" class="nav-link">Packages</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#process" class="nav-link">Process</a>
+        <a href="#faqs" class="nav-link">FAQs</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+    </div>
+
+    <!-- Right CTA Action Stick -->
+    <div class="nav-actions-wrapper">
+      <a href="#contact" class="btn btn-primary btn-nav magnetic">Get Started</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle Menu">
+        <span class="bar bar-1"></span>
+        <span class="bar bar-2"></span>
+        <span class="bar bar-3"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section (CodeDale Inspired) -->
+    <section class="hero-section" id="hero">
+      <div class="hero-container container">
+
+        <!-- Centered Slot Status Badge -->
+        <div class="hero-badge-container scroll-reveal">
+          <span class="hero-badge-pill">
+            <span class="dot-indicator"></span>
+            Only 2 open slots available! &nbsp; →
+          </span>
+        </div>
+
+        <!-- Centered Headline with Text Reveal -->
+        <h1 class="hero-headline text-center">
+          <span class="line-reveal"><span>World-Class Design Partner</span></span>
+          <span class="line-reveal"><span>Engineering Your Brand Success</span></span>
+        </h1>
+
+        <!-- Centered Description Subhead -->
+        <p class="hero-subheadline text-center scroll-reveal delay-2">
+          We help founders & B2B brands scale from ideas to premium realities, and beyond. One hand on content, the
+          other on design.
+        </p>
+
+        <!-- Centered Primary CTA Pill Button -->
+        <div class="hero-cta-container scroll-reveal delay-3">
+          <a href="https://cal.com/derivestems/15min" target="_blank" class="btn btn-hero-pill magnetic">
+            Book a 15-Min call
+            <span class="cta-arrow">→</span>
+          </a>
+        </div>
+
+        <!-- Rating and Avatars Block -->
+        <div class="hero-rating-container scroll-reveal delay-4">
+          <div class="avatar-group">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=80&fit=crop" alt="Client 1" />
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&fit=crop" alt="Client 2" />
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=80&fit=crop" alt="Client 3" />
+            <div class="avatar-more">+50</div>
+          </div>
+          <div class="rating-stars">
+            <div class="stars">★★★★★</div>
+            <div class="rating-text">From 50+ brand reviews</div>
+          </div>
+        </div>
+
+        <!-- Creative Showcase Composition (3D Tree Visual with Floating Review Cards) -->
+        <div class="hero-visual-showcase">
+
+          <!-- Left testimonial card -->
+          <div class="floating-review-card card-left scroll-reveal">
+            <div class="quote-icon">“</div>
+            <p class="review-text">"DeriveStems completely rebuilt our visual authority. Our conversions doubled in
+              weeks."</p>
+            <span class="review-author">- Sarah Jenkins, CEO, Novasplice</span>
+          </div>
+
+          <!-- Center Minimalist Abstract Tree SVG -->
+          <div class="hero-tree-frame">
+            <svg class="hero-abstract-tree-svg" viewBox="0 0 400 400" id="hero-tree-img">
+              <!-- Main trunk -->
+              <path class="tree-line trunk" d="M 200,380 C 200,300 200,240 200,200" />
+
+              <!-- Left major branch -->
+              <path class="tree-line branch" d="M 200,240 C 180,200 140,180 110,170" />
+              <path class="tree-line branch" d="M 155,190 C 135,160 115,145 90,135" />
+
+              <!-- Right major branch -->
+              <path class="tree-line branch" d="M 200,220 C 220,180 260,160 290,150" />
+              <path class="tree-line branch" d="M 245,170 C 265,140 285,125 310,115" />
+
+              <!-- Secondary delicate branches -->
+              <path class="tree-line stem" d="M 110,170 C 95,165 85,150 75,145" />
+              <path class="tree-line stem" d="M 90,135 C 75,130 65,115 55,110" />
+              <path class="tree-line stem" d="M 290,150 C 305,145 315,130 325,125" />
+              <path class="tree-line stem" d="M 310,115 C 325,110 335,95 345,90" />
+
+              <!-- Center vertical stems -->
+              <path class="tree-line branch" d="M 200,200 C 190,150 180,120 175,80" />
+              <path class="tree-line branch" d="M 200,200 C 210,150 220,120 225,80" />
+
+              <path class="tree-line stem" d="M 175,80 C 165,70 160,55 155,50" />
+              <path class="tree-line stem" d="M 225,80 C 235,70 240,55 245,50" />
+
+              <!-- Leaf nodes (small, extremely light, clean circle markers at endpoints of stems) -->
+              <circle cx="75" cy="145" r="2.5" class="tree-leaf-dot" />
+              <circle cx="55" cy="110" r="2.5" class="tree-leaf-dot" />
+              <circle cx="325" cy="125" r="2.5" class="tree-leaf-dot" />
+              <circle cx="345" cy="90" r="2.5" class="tree-leaf-dot" />
+              <circle cx="155" cy="50" r="2.5" class="tree-leaf-dot" />
+              <circle cx="245" cy="50" r="2.5" class="tree-leaf-dot" />
+              <circle cx="90" cy="135" r="2" class="tree-leaf-dot" />
+              <circle cx="310" cy="115" r="2" class="tree-leaf-dot" />
+              <circle cx="175" cy="80" r="2" class="tree-leaf-dot" />
+              <circle cx="225" cy="80" r="2" class="tree-leaf-dot" />
+            </svg>
+          </div>
+
+          <!-- Right testimonial card -->
+          <div class="floating-review-card card-right scroll-reveal">
+            <div class="quote-icon">“</div>
+            <p class="review-text">"The content system they built runs on autopilot now. Pure luxury design quality."
+            </p>
+            <span class="review-author">- Sujith Reddy Gopu, CEO, Fluent Pro</span>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Brand Reviews Marquee Section (Scrolling Left to Right) -->
+    <section class="brand-reviews-section">
+      <div class="marquee-marquee-container">
+        <div class="marquee-track-left">
+
+          <!-- Card 1 -->
+          <div class="marquee-review-card">
+            <div class="marquee-card-header">
+              <img src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?w=80&fit=crop"
+                class="client-avatar" alt="Narasimha Reddy" />
+              <div class="client-info">
+                <span class="client-name">Narasimha Reddy</span>
+                <span class="client-title">CEO, TFS</span>
+              </div>
+            </div>
+            <p class="client-feedback">"They rebuilt our brand confidence and delivered an incredible, premium system."
+            </p>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="marquee-review-card">
+            <div class="marquee-card-header">
+              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=80&fit=crop"
+                class="client-avatar" alt="Sujith Reddy Gopu" />
+              <div class="client-info">
+                <span class="client-name">Sujith Reddy Gopu</span>
+                <span class="client-title">CEO, Fluent Pro</span>
+              </div>
+            </div>
+            <p class="client-feedback">"Highly recommended. Visual authority is everything, and they nailed it."</p>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="marquee-review-card">
+            <div class="marquee-card-header">
+              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=80&fit=crop"
+                class="client-avatar" alt="Vasanta Kumar" />
+              <div class="client-info">
+                <span class="client-name">Vasanta Kumar</span>
+                <span class="client-title">CTO, Solutions</span>
+              </div>
+            </div>
+            <p class="client-feedback">"It's not just design, it's the premium experience they unlock for B2B brands."
+            </p>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="marquee-review-card">
+            <div class="marquee-card-header">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&fit=crop"
+                class="client-avatar" alt="Marcus Chen" />
+              <div class="client-info">
+                <span class="client-name">Marcus Chen</span>
+                <span class="client-title">Founder, Veloce</span>
+              </div>
+            </div>
+            <p class="client-feedback">"An outstanding partner. The asset templates they created look brilliant."</p>
+          </div>
+
+          <!-- Duplicate Set for Seamless Left-to-Right Scrolling -->
+
+          <div class="marquee-review-card">
+            <div class="marquee-card-header">
+              <img src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?w=80&fit=crop"
+                class="client-avatar" alt="Narasimha Reddy" />
+              <div class="client-info">
+                <span class="client-name">Narasimha Reddy</span>
+                <span class="client-title">CEO, TFS</span>
+              </div>
+            </div>
+            <p class="client-feedback">"They rebuilt our brand confidence and delivered an incredible, premium system."
+            </p>
+          </div>
+
+          <div class="marquee-review-card">
+            <div class="marquee-card-header">
+              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=80&fit=crop"
+                class="client-avatar" alt="Sujith Reddy Gopu" />
+              <div class="client-info">
+                <span class="client-name">Sujith Reddy Gopu</span>
+                <span class="client-title">CEO, Fluent Pro</span>
+              </div>
+            </div>
+            <p class="client-feedback">"Highly recommended. Visual authority is everything, and they nailed it."</p>
+          </div>
+
+          <div class="marquee-review-card">
+            <div class="marquee-card-header">
+              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=80&fit=crop"
+                class="client-avatar" alt="Vasanta Kumar" />
+              <div class="client-info">
+                <span class="client-name">Vasanta Kumar</span>
+                <span class="client-title">CTO, Solutions</span>
+              </div>
+            </div>
+            <p class="client-feedback">"It's not just design, it's the premium experience they unlock for B2B brands."
+            </p>
+          </div>
+
+          <div class="marquee-review-card">
+            <div class="marquee-card-header">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&fit=crop"
+                class="client-avatar" alt="Marcus Chen" />
+              <div class="client-info">
+                <span class="client-name">Marcus Chen</span>
+                <span class="client-title">Founder, Veloce</span>
+              </div>
+            </div>
+            <p class="client-feedback">"An outstanding partner. The asset templates they created look brilliant."</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Metrics Section (Moved outside trust marquee for clean minimalist spacing) -->
+    <section class="metrics-section section-padding">
+      <div class="metrics-container container scroll-reveal">
+        <div class="metrics-grid">
+          <div class="metric-card">
+            <h3 class="metric-number" data-target="100">0+</h3>
+            <p class="metric-label">Projects Delivered</p>
+          </div>
+          <div class="metric-card">
+            <h3 class="metric-number" data-target="50">0+</h3>
+            <p class="metric-label">Brands Served</p>
+          </div>
+          <div class="metric-card">
+            <h3 class="metric-number" data-target="95">0%</h3>
+            <p class="metric-label">Client Satisfaction</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Problems Section -->
+    <section class="problems-section section-padding" style="background-color: var(--light-grey); border-bottom: 1px solid var(--border-light);">
+      <div class="container">
+        <div class="section-header text-center scroll-reveal">
+          <span class="badge">The Struggle</span>
+          <h2 class="section-title">Making content is hard.</h2>
+          <p class="section-subtitle">Here are the most common things founders, creators, and B2B teams struggle with every day.</p>
+        </div>
+
+        <div class="problems-grid">
+          <div class="problem-card scroll-reveal">
+            <h3 class="problem-title">No time to post</h3>
+            <p class="problem-desc">You want to share content, but you are busy running your business. Editing videos, writing captions, and designing graphics takes hours of your time.</p>
+          </div>
+          <div class="problem-card scroll-reveal delay-1">
+            <h3 class="problem-title">Low quality look</h3>
+            <p class="problem-desc">Your posts do not look as professional as you want. They look a bit amateur, which makes it hard for clients to trust your brand.</p>
+          </div>
+          <div class="problem-card scroll-reveal delay-2">
+            <h3 class="problem-title">No clear plan</h3>
+            <p class="problem-desc">You post whenever you have a free moment, but there is no strategy. This makes it really hard to build a loyal audience or get leads.</p>
+          </div>
+          <div class="problem-card scroll-reveal delay-3">
+            <h3 class="problem-title">Creator burn out</h3>
+            <p class="problem-desc">Trying to do scripting, filming, editing, designing, and scheduling all by yourself is tiring. You eventually lose motivation and stop posting.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section (Interactive list linked to image transitions) -->
+    <section class="services-section section-padding" id="services">
+      <div class="container">
+        <div class="section-header text-center scroll-reveal">
+          <h2 class="section-title">What We Do</h2>
+          <p class="section-subtitle">We handle all your content, design, and branding needs in one place. Here is how we help you build a professional brand that people actually trust.</p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Card 1 -->
+          <div class="service-card-grid scroll-reveal">
+            <div class="service-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=800&q=80"
+                alt="Content Creation" />
+            </div>
+            <div class="service-grid-content">
+              <span class="service-num-grid">01</span>
+              <h3 class="service-title-grid">Content Creation</h3>
+              <p class="service-desc-grid">
+                We edit short-form videos and design posts that fit your brand. You will get clean videos with smooth cuts, captions, and graphics ready to post.
+              </p>
+              <div class="service-tags-grid">
+                <span>Short Form Video</span>
+                <span>Instagram Reels</span>
+                <span>Social Media</span>
+                <span>Motion Graphics</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="service-card-grid scroll-reveal delay-1">
+            <div class="service-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?auto=format&fit=crop&w=800&q=80"
+                alt="Graphic Design" />
+            </div>
+            <div class="service-grid-content">
+              <span class="service-num-grid">02</span>
+              <h3 class="service-title-grid">Graphic Design</h3>
+              <p class="service-desc-grid">
+                We make social media carousels, sales decks, and marketing graphics. Everything is clean and easy to read, so your message is clear.
+              </p>
+              <div class="service-tags-grid">
+                <span>Carousel Designs</span>
+                <span>Promotional Creatives</span>
+                <span>Marketing Materials</span>
+                <span>Presentations</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="service-card-grid scroll-reveal delay-2">
+            <div class="service-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1509343256512-d77a5cb3791b?auto=format&fit=crop&w=800&q=80"
+                alt="Branding" />
+            </div>
+            <div class="service-grid-content">
+              <span class="service-num-grid">03</span>
+              <h3 class="service-title-grid">Branding</h3>
+              <p class="service-desc-grid">
+                We help you pick the right colors, logos, and fonts for your brand. You will get a complete brand book that keeps everything looking consistent.
+              </p>
+              <div class="service-tags-grid">
+                <span>Logo Design</span>
+                <span>Identity Development</span>
+                <span>Typography & Colors</span>
+                <span>Guidelines</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="service-card-grid scroll-reveal delay-3">
+            <div class="service-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1517842645767-c639042777db?auto=format&fit=crop&w=800&q=80"
+                alt="Content Strategy" />
+            </div>
+            <div class="service-grid-content">
+              <span class="service-num-grid">04</span>
+              <h3 class="service-title-grid">Content Strategy</h3>
+              <p class="service-desc-grid">
+                We build a plan for your social channels. We map out content themes and calendars so you always know what to post and when.
+              </p>
+              <div class="service-tags-grid">
+                <span>Content Planning</span>
+                <span>Monthly Calendars</span>
+                <span>Positioning</span>
+                <span>Direction</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Packages Section (Minimalist Pricing Cards) -->
+    <section class="packages-section section-padding" id="packages">
+      <div class="container">
+        <div class="section-header text-center scroll-reveal">
+          <h2 class="section-title">Our Packages</h2>
+          <p class="section-subtitle">No hidden fees or complicated contracts. Just pick a monthly package that fits your goals. You can upgrade, downgrade, or cancel anytime.</p>
+        </div>
+
+        <div class="pricing-grid">
+          <!-- Starter Plan -->
+          <div class="pricing-card-minimal scroll-reveal">
+            <div class="pricing-header">
+              <h3 class="plan-name-minimal">Starter Package</h3>
+              <div class="price-box-minimal">
+                <span class="currency-minimal">₹</span>
+                <span class="price-val-minimal">12,000</span>
+                <span class="period-minimal">/month</span>
+              </div>
+              <p class="plan-desc-minimal">Great for small businesses, creators, and founders who are just getting started.</p>
+            </div>
+            <ul class="pricing-features-minimal">
+              <li>8 Short Form Videos</li>
+              <li>4 Social Media Posts</li>
+              <li>Caption Writing</li>
+              <li>Basic Content Planning</li>
+              <li>Brand Consistency</li>
+              <li>1 Revision Round</li>
+              <li>Monthly Delivery</li>
+            </ul>
+            <div class="pricing-footer">
+              <a href="#contact" class="btn btn-outline btn-full magnetic">Get Started</a>
+            </div>
+          </div>
+
+          <!-- Growth Plan (Highlighted) -->
+          <div class="pricing-card-minimal highlighted scroll-reveal delay-1">
+            <div class="pricing-header">
+              <h3 class="plan-name-minimal">Growth Package</h3>
+              <div class="price-box-minimal">
+                <span class="currency-minimal">₹</span>
+                <span class="price-val-minimal">20,000</span>
+                <span class="period-minimal">/month</span>
+              </div>
+              <p class="plan-desc-minimal">Best for growing businesses that need consistent, professional content every single week.</p>
+            </div>
+            <ul class="pricing-features-minimal">
+              <li>16 Short Form Videos</li>
+              <li>8 Social Media Posts</li>
+              <li>Monthly Content Calendar</li>
+              <li>Caption Writing</li>
+              <li>Content Ideas</li>
+              <li>Thumbnail Design</li>
+              <li>Brand Consistency Management</li>
+              <li>2 Revision Rounds</li>
+              <li>Monthly Delivery</li>
+            </ul>
+            <div class="pricing-footer">
+              <a href="#contact" class="btn btn-primary btn-full magnetic">Get Started</a>
+            </div>
+          </div>
+
+          <!-- Premium Plan -->
+          <div class="pricing-card-minimal scroll-reveal delay-2">
+            <div class="pricing-header">
+              <h3 class="plan-name-minimal">Premium Package</h3>
+              <div class="price-box-minimal">
+                <span class="currency-minimal">₹</span>
+                <span class="price-val-minimal">35,000</span>
+                <span class="period-minimal">/month</span>
+              </div>
+              <p class="plan-desc-minimal">Made for established brands and agencies that want to scale their content quickly.</p>
+            </div>
+            <ul class="pricing-features-minimal">
+              <li>24 Short Form Videos</li>
+              <li>12 Social Media Posts</li>
+              <li>Complete Monthly Strategy</li>
+              <li>Monthly Content Calendar</li>
+              <li>Caption Writing</li>
+              <li>Content Ideas & Script Support</li>
+              <li>Thumbnail Design</li>
+              <li>Priority Support</li>
+              <li>Unlimited Minor Revisions</li>
+              <li>Monthly Review</li>
+            </ul>
+            <div class="pricing-footer">
+              <a href="#contact" class="btn btn-outline btn-full magnetic">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section with Growing Branch Art -->
+    <section class="about-section section-padding" id="about">
+      <div class="container">
+        <div class="about-split">
+          <!-- Left Side Content -->
+          <div class="about-content scroll-reveal">
+            <span class="badge">Who We Are</span>
+            <h2 class="section-title text-left">About DeriveStems</h2>
+            <p class="about-text">
+              DeriveStems is a small team of creators and designers. We help brands, founders, and startups look professional online. If you need clean content that shows who you are and what you do, we are here to build it with you.
+            </p>
+            <p class="about-text">
+              We do everything from editing short-form videos and designing graphics to setting up your brand identity and content calendars. Our goal is to make sure your brand looks polished and consistent on every platform.
+            </p>
+            <p class="about-text">
+              We believe good content should do more than just look pretty. It should build real trust with your audience, get people's attention, and help your business grow.
+            </p>
+
+            <!-- Mission & Vision -->
+            <div class="mv-grid">
+              <div class="mv-item">
+                <h4>Our Mission</h4>
+                <p>To make it easy for businesses to show their value with clean design, great videos, and a clear brand message.</p>
+              </div>
+              <div class="mv-item">
+                <h4>Our Vision</h4>
+                <p>To be the go-to partner for founders who want a trusted team handling their design and content needs.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Side Visual (Founder Quote Block) -->
+          <div class="about-founder-quote scroll-reveal delay-2">
+            <div class="founder-quote-card">
+              <div class="founder-avatar-wrapper">
+                <img src="/madhav.jpg" alt="Madhav Reddy K" class="founder-avatar-img" />
+              </div>
+              <blockquote class="founder-quote-text">
+                "It's not the content we create, it's the growth it unlocks."
+              </blockquote>
+              <cite class="founder-quote-author">— Founder & CEO, Madhav Reddy K</cite>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-us-section section-padding">
+      <div class="container">
+        <div class="section-header text-center scroll-reveal">
+          <h2 class="section-title">Why Choose DeriveStems</h2>
+          <p class="section-subtitle">We do not just send you files and disappear. We work closely with you as a partner to help your brand grow.</p>
+        </div>
+
+        <div class="why-us-grid">
+          <div class="why-card-minimal scroll-reveal">
+            <h3 class="why-title-minimal">Top-tier quality</h3>
+            <p class="why-desc-minimal">Your videos, graphics, and captions will look clean and professional, just like the biggest brands in your industry.</p>
+          </div>
+
+          <div class="why-card-minimal scroll-reveal delay-1">
+            <h3 class="why-title-minimal">Always consistent</h3>
+            <p class="why-desc-minimal">We make sure all your posts, videos, and graphics match your brand's style, colors, and voice.</p>
+          </div>
+
+          <div class="why-card-minimal scroll-reveal delay-2">
+            <h3 class="why-title-minimal">Fresh ideas</h3>
+            <p class="why-desc-minimal">We keep up with the latest trends and styles to share creative ideas that help your content stand out.</p>
+          </div>
+
+          <div class="why-card-minimal scroll-reveal delay-3">
+            <h3 class="why-title-minimal">Never ghosting you</h3>
+            <p class="why-desc-minimal">We reply fast, keep you updated, and make sure we deliver your assets on time, every time.</p>
+          </div>
+
+          <div class="why-card-minimal scroll-reveal delay-4">
+            <h3 class="why-title-minimal">Built to grow</h3>
+            <p class="why-desc-minimal">We design and edit with a clear goal in mind, which is to help you get more attention and build trust.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process Section with Stem Art Axis -->
+    <section class="process-section section-padding" id="process">
+      <!-- Background Branch PNG (Creative organic accent) -->
+      <div class="process-bg-branch">
+        <img src="/process-branch.png" alt="" />
+      </div>
+      <div class="container">
+        <div class="section-header text-center scroll-reveal">
+          <h2 class="section-title">How we work together</h2>
+          <p class="section-subtitle">Here is how we take your ideas and turn them into finished content for your brand.</p>
+        </div>
+
+        <div class="process-timeline-wrapper">
+          <!-- Minimal vertical track line -->
+          <div class="process-timeline-line"></div>
+
+          <!-- Step 1 -->
+          <div class="timeline-step scroll-reveal">
+            <div class="step-marker-minimal"></div>
+            <div class="card-minimal-step">
+              <h3 class="step-title-minimal">01 / Kickoff chat</h3>
+              <p class="step-desc-minimal">We start with a quick call to learn about your business, who you want to reach, what style you like, and what you want to achieve.</p>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="timeline-step scroll-reveal">
+            <div class="step-marker-minimal"></div>
+            <div class="card-minimal-step">
+              <h3 class="step-title-minimal">02 / Setting the plan</h3>
+              <p class="step-desc-minimal">We create a custom style plan and content roadmap for you. We pick the colors, fonts, templates, and themes that fit your brand.</p>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="timeline-step scroll-reveal">
+            <div class="step-marker-minimal"></div>
+            <div class="card-minimal-step">
+              <h3 class="step-title-minimal">03 / Content creation</h3>
+              <p class="step-desc-minimal">Our design and editing team gets to work. We edit your videos, design your graphics, and write your captions.</p>
+            </div>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="timeline-step scroll-reveal">
+            <div class="step-marker-minimal"></div>
+            <div class="card-minimal-step">
+              <h3 class="step-title-minimal">04 / Easy feedback</h3>
+              <p class="step-desc-minimal">We share drafts with you on a simple dashboard. You can leave comments directly on the designs and videos, and we will make any changes you want.</p>
+            </div>
+          </div>
+
+          <!-- Step 5 -->
+          <div class="timeline-step scroll-reveal">
+            <div class="step-marker-minimal"></div>
+            <div class="card-minimal-step">
+              <h3 class="step-title-minimal">05 / Delivery</h3>
+              <p class="step-desc-minimal">We send over your finished high-resolution videos and graphics, along with caption text, so everything is ready for you to post.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section section-padding">
+      <div class="container">
+        <div class="section-header text-center scroll-reveal">
+          <h2 class="section-title">What our clients say</h2>
+          <p class="section-subtitle">We work with founders, creators, and B2B marketing teams. Here is what they say about us.</p>
+        </div>
+
+        <div class="testimonial-carousel-container scroll-reveal">
+          <div class="testimonial-track-wrapper">
+            <div class="testimonial-track" id="testimonial-track">
+              <!-- Testimonial 1 -->
+              <div class="testimonial-card-minimal">
+                <div class="quote-mark">“</div>
+                <p class="testimonial-text-minimal">
+                  "DeriveStems completely transformed our short-form content. Their video editing style is incredibly
+                  engaging and matches our brand guidelines perfectly. We saw a 300% increase in IG Reels reach in just
+                  60 days."
+                </p>
+                <div class="testimonial-author">
+                  <div class="author-info-minimal">
+                    <h4>Ananya Deshmukh</h4>
+                    <span>Founder, AuraScale Media</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Testimonial 2 -->
+              <div class="testimonial-card-minimal">
+                <div class="quote-mark">“</div>
+                <p class="testimonial-text-minimal">
+                  "The graphic design materials delivered by DeriveStems are outstanding. They took our complex
+                  technical concepts and made them visually beautiful and easy to read. High quality and fast turnaround
+                  time."
+                </p>
+                <div class="testimonial-author">
+                  <div class="author-info-minimal">
+                    <h4>Rohan Kapoor</h4>
+                    <span>Head of Marketing, StarkVenture</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Testimonial 3 -->
+              <div class="testimonial-card-minimal">
+                <div class="quote-mark">“</div>
+                <p class="testimonial-text-minimal">
+                  "Working with DeriveStems has made our branding seamless. The design guidelines they created are
+                  simple to follow and our social posts are finally consistent. Highly recommend their Growth Package."
+                </p>
+                <div class="testimonial-author">
+                  <div class="author-info-minimal">
+                    <h4>Sarah Mehta</h4>
+                    <span>Content Creator & Coach</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-dots" id="carousel-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section as a Chat-like UI interface -->
+    <section class="faq-section section-padding" id="faqs">
+      <div class="container">
+        <div class="section-header text-center scroll-reveal">
+          <h2 class="section-title">Frequently Asked Questions</h2>
+          <p class="section-subtitle">Quick answers in a modern conversational interface.</p>
+        </div>
+
+        <div class="faq-chat-container scroll-reveal">
+          <!-- Chat Window Header -->
+          <div class="chat-header">
+            <div class="chat-bot-avatar">DS</div>
+            <div class="chat-bot-details">
+              <span class="chat-bot-name">DeriveStems Assistant</span>
+              <span class="chat-bot-status">
+                <span class="chat-status-dot"></span> Online
+              </span>
+            </div>
+          </div>
+
+          <!-- Messages Feed -->
+          <div class="chat-feed" id="chat-feed">
+            <div class="chat-bubble bubble-assistant">
+              Hi! Welcome to DeriveStems. How can we help you today?
+            </div>
+            <div class="chat-bubble bubble-assistant">
+              Click any of the questions below to start chatting with our assistant.
+            </div>
+          </div>
+
+          <!-- Suggestions Input Box -->
+          <div class="chat-suggestions-wrapper">
+            <div class="chat-suggestions-title">Choose a Question</div>
+            <div class="chat-suggestions-list" id="chat-suggestions-list">
+              <button class="chat-btn-suggestion" data-id="0">What industries do you work with?</button>
+              <button class="chat-btn-suggestion" data-id="1">Do you provide content ideas?</button>
+              <button class="chat-btn-suggestion" data-id="2">Do you offer branding services?</button>
+              <button class="chat-btn-suggestion" data-id="3">Can I request a custom package?</button>
+              <button class="chat-btn-suggestion" data-id="4">How do we get started?</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section (Minimalist Apple-style) -->
+    <section class="contact-section section-padding" id="contact">
+      <div class="container contact-container">
+        <div class="contact-split">
+          <!-- Left Side Info -->
+          <div class="contact-info scroll-reveal">
+            <span class="badge">Get in Touch</span>
+            <h2 class="section-title text-left">Let's talk.</h2>
+            <p class="contact-subtitle">
+              Have a project in mind or just want to chat about your content? Fill out the form, and we will get right back to you on WhatsApp.
+            </p>
+
+            <div class="contact-details">
+              <a href="mailto:contact@derivestems.com" class="detail-link-minimal">contact@derivestems.com</a>
+              <a href="tel:+919573823328" class="detail-link-minimal">+91 9573823328</a>
+            </div>
+          </div>
+
+          <!-- Right Side Form -->
+          <div class="contact-form-wrapper scroll-reveal delay-1">
+            <form class="inquiry-form" id="inquiry-form">
+              <div class="form-group">
+                <label for="form-name">Full Name</label>
+                <input type="text" id="form-name" placeholder="John Doe" required>
+              </div>
+              <div class="form-group">
+                <label for="form-email">Email Address</label>
+                <input type="email" id="form-email" placeholder="john@company.com" required>
+              </div>
+              <div class="form-group">
+                <label for="form-service">How Can We Help?</label>
+                <select id="form-service" required>
+                  <option value="" disabled selected>Select a Service</option>
+                  <option value="content-creation">Content Creation</option>
+                  <option value="graphic-design">Graphic Design</option>
+                  <option value="branding">Branding</option>
+                  <option value="content-strategy">Content Strategy</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="form-message">Project Details</label>
+                <textarea id="form-message" rows="4"
+                  placeholder="Tell us about your brand, channels, and content goals..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+              <div class="form-status" id="form-status"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <a href="#" class="footer-logo">
+          <svg viewBox="0 0 100 100" class="logo-icon-footer">
+            <path d="M 50,15 L 50,85" stroke="currentColor" stroke-width="7" stroke-linecap="round" />
+            <path d="M 24,35 L 50,15 L 76,35" stroke="currentColor" stroke-width="7" stroke-linecap="round"
+              stroke-linejoin="round" fill="none" />
+            <path d="M 50,35 L 24,50 L 24,68 L 50,83" stroke="currentColor" stroke-width="7" stroke-linecap="round"
+              stroke-linejoin="round" fill="none" />
+            <path d="M 50,35 L 76,50 L 76,68 L 50,83" stroke="currentColor" stroke-width="7" stroke-linecap="round"
+              stroke-linejoin="round" fill="none" />
+          </svg>
+          <span class="logo-text">DeriveStems</span>
+        </a>
+        <p class="footer-brand-desc">
+          We help brands look clean and professional with videos, graphics, and strategies that actually work.
+        </p>
+      </div>
+
+      <div class="footer-links-group">
+        <div class="footer-col">
+          <h4 class="footer-title">Services</h4>
+          <ul class="footer-links">
+            <li><a href="#services">Content Creation</a></li>
+            <li><a href="#services">Graphic Design</a></li>
+            <li><a href="#services">Branding</a></li>
+            <li><a href="#services">Content Strategy</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#packages">Pricing Packages</a></li>
+            <li><a href="#process">Creative Process</a></li>
+            <li><a href="#faqs">FAQs</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-title">Contact</h4>
+          <p class="footer-contact-info">contact@derivestems.com</p>
+          <p class="footer-contact-info">+91 9573823328</p>
+          <p class="footer-contact-info">Hyderabad, India</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-container">
+        <p class="copyright">© 2026 DeriveStems. All Rights Reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
