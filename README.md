@@ -8,7 +8,7 @@ A premium, Apple-style minimalist agency website for **DeriveStems**, a creative
 
 ## Live Preview
 
-> Deploy to Vercel, Netlify, or any static host using `npm run build`.
+🌐 **[derivestems.inboxtales.com](https://derivestems.inboxtales.com)**
 
 ---
 

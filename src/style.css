@@ -405,7 +405,7 @@ img {
     border: 1px solid var(--border-light);
     border-radius: var(--border-radius-lg);
     flex-direction: column;
-    padding: 30px 20px;
+    padding: 30px 98px;
     gap: 20px;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
     transform: translateY(-10px);
